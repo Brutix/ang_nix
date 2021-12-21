@@ -1,0 +1,56 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+.element {
+    width: 350px;
+    height:220px;
+    padding: 15px 10px 20px 10px;
+    margin:30px;
+    background-color:green;
+    border:2px dashed red; 
+
+}
+
+.section {
+    max-width: 650px;
+    margin: 0px 0px 20px 20px;
+    
+    
+    
+}
+
+.img-first {
+    float: left;
+    width: 250px;
+    margin:0 20px 20px 0;
+    clear: right;
+    
+    
+  }
+
+.img-second {
+    float: right;
+    width: 200px;
+    margin:20px 0px 20px 20px;
+    clear: left;   
+
+  }
+
+ p{
+     text-align: justify;
+ }
+
+ /* В общем долбался наверное не один час,
+  перерыл все статьи на эту тему,
+ но так и не нашел, как сместить одни флоат элемент
+ относительно другого без использования margin - в примере
+  margin у обеих картинок одинаковые, разрыва и переноса текста,
+  как в случае добавления пустого div нет */
